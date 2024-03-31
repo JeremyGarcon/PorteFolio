@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable List Example</title>
+    <style>
+        /* CSS */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .listItem {
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .listItem:hover {
+            background-color: #e0e0e0;
+        }
+
+        .subList {
+            display: none;
+            padding-left: 20px;
+        }
+
+        .subListItem {
+            padding: 5px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Expandable List Example</h1>
+    <ul id="expandableList">
+        <li class="listItem">Item 1
+            <ul class="subList">
+                <li class="subListItem">Subitem 1</li>
+                <li class="subListItem">Subitem 2</li>
+                <li class="subListItem">Subitem 3</li>
+            </ul>
+        </li>
+        <li class="listItem">Item 2
+            <ul class="subList">
+                <li class="subListItem">Subitem 1</li>
+                <li class="subListItem">Subitem 2</li>
+                <li class="subListItem">Subitem 3</li>
+            </ul>
+        </li>
+        <li class="listItem">Item 3
+            <ul class="subList">
+                <li class="subListItem">Subitem 1</li>
+                <li class="subListItem">Subitem 2</li>
+                <li class="subListItem">Subitem 3</li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        // JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sélectionner tous les éléments de liste avec la classe 'listItem'
+            var listItems = document.querySelectorAll('.listItem');
+
+            // Parcourir tous les éléments de liste
+            listItems.forEach(function(listItem) {
+                // Ajouter un écouteur d'événements au clic sur chaque élément de liste
+                listItem.addEventListener('click', function() {
+                    // Sélectionner la sous-liste associée à l'élément de liste actuel
+                    var subList = this.querySelector('.subList');
+                    
+                    // Basculer la visibilité de la sous-liste
+                    if (subList.style.display === 'none' || subList.style.display === '') {
+                        subList.style.display = 'block';
+                    } else {
+                        subList.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

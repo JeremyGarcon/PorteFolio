@@ -1,0 +1,29 @@
+var ctx = document.getElementById('myChart').getContext('2d');
+
+// Définir les données du graphique
+var data = {
+    labels: ['Face 1', 'Face 2', 'Face 3', 'Face 4', 'Face 5', 'Face 6'],
+    datasets: [{
+        label: 'Niveau de compétence',
+        data: [70, 60, 80, 85, 75, 90], // Valeurs de compétence (sur 100)
+        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Couleur de fond
+        borderColor: 'rgba(255, 99, 132, 1)', // Couleur de la bordure
+        borderWidth: 1
+    }]
+};
+
+// Définir les options du graphique
+var options = {
+    scale: {
+        ticks: {
+            beginAtZero: true,
+            max: 100 // Valeur maximale de l'axe
+        }
+    }
+};
+
+var myChart = new Chart(ctx, {
+    type: 'radar', // Type de graphique (radar dans cet exemple)
+    data: data, // Données du graphique
+    options: options // Options du graphique
+});
