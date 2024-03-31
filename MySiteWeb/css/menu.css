@@ -1,0 +1,106 @@
+/* Style pour la section Menu */
+.Menu {
+    background-color: var(--main-color); /* Couleur de fond */
+    border-radius: 10px; /* Rayon de bordure */
+    padding: 20px; /* Espacement intérieur */
+}
+
+.Menu h2 {
+    padding-bottom: 1em; /* Espacement inférieur */
+    border-bottom: 2px solid var(--secondary-color); /* Bordure inférieure */
+}
+
+/* Styles pour le menu */
+#menu {
+    display: flex; /* Utilisation de flexbox */
+    justify-content: space-around; /* Répartition égale des éléments */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+.btn {
+    border: none; /* Suppression de la bordure */
+    outline: none; /* Suppression de l'effet de contour */
+    padding: 10px 20px; /* Espacement intérieur */
+    cursor: pointer; /* Curseur pointeur au survol */
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border-radius: 5px; /* Rayon de bordure */
+    transition: background-color 0.3s ease; /* Transition fluide */
+}
+
+.btn:hover {
+    background-color: #666; /* Couleur de fond au survol */
+}
+
+/* Styles pour les sections */
+.content {
+    display: none; /* Par défaut, masquer le contenu des sections */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 5px; /* Rayon de bordure */
+    margin-bottom: 20px; /* Marge inférieure */
+    height: max-content; /* Hauteur maximale */
+}
+
+/* Style pour afficher le contenu lorsque la classe 'show' est appliquée */
+.show {
+    display: block; /* Affichage du contenu */
+}
+
+/* Style pour la grille des réseaux sociaux */
+.Card {
+    display: grid; /* Utilisation de la grille */
+    grid-template-columns: 50% 50%; /* Deux colonnes de largeur égale */
+    grid-column-gap: 15px; /* Espacement entre les colonnes */
+}
+
+.Card #CardLinkedin,
+.Card #CardGithub {
+    border-radius: var(--border-radius); /* Rayon de bordure */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 10px; /* Espacement intérieur */
+}
+
+.Card #CardGithub:hover,
+.Card #CardLinkedin:hover {
+    background-color: #3f3f3f; /* Couleur de fond au survol */
+    cursor: pointer; /* Curseur pointeur au survol */
+}
+
+.Card img {
+    max-width: 45%; /* Largeur maximale de l'image */
+    height: 45%; /* Hauteur de l'image */
+    border-radius: 40%; /* Bordure arrondie */
+}
+
+/* CSS pour la liste déployable */
+#experienceMenu {
+    list-style-type: none; /* Suppression des puces de liste */
+    padding-left: 0; /* Suppression du remplissage à gauche */
+}
+
+.item {
+    cursor: pointer; /* Curseur pointeur */
+    padding: 10px; /* Espacement intérieur */
+    background-color: none; /* Couleur de fond */
+    border-radius: 5px; /* Rayon de bordure */
+}
+
+.item:hover {
+    background-color: #3f3f3f; /* Couleur de fond au survol */
+}
+
+.subList {
+    display: none; /* Par défaut, masquer la liste déployable */
+    list-style-type: none; /* Suppression des puces de liste */
+    padding-left: 20px; /* Espacement à gauche */
+}
+
+.subListItem {
+    padding: 5px; /* Espacement intérieur */
+    font-family: Arial, sans-serif; /* Police de caractère */
+    font-size: 14px; /* Taille de police */
+    line-height: 1.6; /* Hauteur de ligne */
+    color: #efeded; /* Couleur du texte */
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jeremy Garçon</title>
+    <!-- Ajout des fichiers CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/biographie.css">
+    <!-- Inclusion de la bibliothèque Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Vidéo de fond -->
+    <video autoplay loop muted id="video-background">
+        <source src="video/background.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la vidéo HTML5.
+    </video>      
+    <main>
+        <!-- Section Biographie -->
+        <section class="Biographie">
+            <h2>Profile</h2>
+            <img src="images/photo.img" alt="Ma photo">
+            <p><u>Jeremy Garcon</u><br></p>
+            <ul>
+                <li><u>Âge:</u> 22 ans</li>
+                <li><u>Etude:</u> Ynov Campus Rennes</li>
+            </ul>
+        </section>
+        <!-- Section Menu -->
+        <section class="Menu">
+            <h2>Menu</h2>
+            <div id="menu">
+                <!-- Boutons du menu avec des fonctions JavaScript associées -->
+                <button class="btn" onclick="showContent('GraphicsSkill')">Graphics Skill</button>
+                <button class="btn" onclick="showContent('Experience')">My experience</button>
+                <button class="btn" onclick="showContent('Social')">My Social</button>
+            </div>
+            <!-- Contenu de GraphicsSkill -->
+            <div id="GraphicsSkill" class="content">
+                <!-- Canvas pour le graphique -->
+                <canvas id="myChart" width="400" height="400"></canvas>
+                <!-- Inclusion du fichier JavaScript pour le graphique -->
+                <script src="js/graphique.js"></script>
+            </div>
+            <!-- Contenu de Experience -->
+            <div id="Experience" class="content">
+                <ul id="experienceMenu"> <!-- Menu déployable pour l'expérience -->
+                    <!-- Liste des diplômes et certifications -->
+                    <li class="item">Diplome & Certification 
+                        <ul class="subList">
+                            <li class="subListItem">-Baccalauréat SN(Système numérique) Option RISC | Diplômé en 2022  (Mention Assez Bien) </li>
+                            <li class="subListItem">-Certification Pix Diplômée en 2022</li>
+                            <li class="subListItem">-Certificat  Valider à 100% Linux  | OpenClassrom </li>
+                            <li class="subListItem">-SST(Sauveteur secouriste du travail) | Diplômée en 2021</li>
+                            <li class="">-Score Root-me: 165</li>
+                        </ul>
+                    </li>
+                    <!-- Liste des expériences professionnelles -->
+                    <li class="item"> Expérience Professionnelle
+                        <ul class="subList">
+                            <li class="subListItem"></li>
+                            <li class="subListItem">
+                                -Administration et maintenance réseaux en entreprise | Nov 2021 - Fév 2022 | Cogep
+                            </li>
+                            <li class="subListItem"></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Inclusion du fichier JavaScript pour le menu déployable -->
+                <script src="js/myexperience.js"></script>
+            </div>
+            <!-- Contenu de Social -->
+            <div id="Social" class="content">
+                <div class="Card">
+                    <!-- Liens vers les réseaux sociaux -->
+                    <div id="CardLinkedin">
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img src="images/linkedin.png" alt="CardGithub"></a>
+                    </div>
+                    <div id="CardGithub"> 
+                        <a href="https://github.com/JeremyGarcon/PorteFolio.git"><img src="images/github.png" alt="CardGithub"></a>
+                    </div>
+                </div>
+            </div>
+        </section>       
+    </main>
+    <!-- Inclusion du fichier JavaScript pour le menu -->
+    <script src="js/menu.js"></script>
+</body>
+</html>

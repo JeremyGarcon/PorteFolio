@@ -1,0 +1,41 @@
+/* Biographie */
+.Biographie {
+    background-color: var(--main-color); /* Couleur de fond */
+    padding: 2em; /* Espacement intérieur */
+    border-radius: 10px; /* Rayon de bordure */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    text-align: center; /* Alignement du texte au centre */
+    max-height: 400px; /* Hauteur maximale */
+}
+.Biographie * {
+    margin: 3%;
+}
+
+.Biographie img {
+    display: block; /* Affichage en bloc */
+    margin: auto; /* Mise en page centrée horizontalement */
+    border-radius: 50%; /* Bordure arrondie pour une forme circulaire */
+    max-width: 200px; /* Largeur maximale de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    border: 2px solid var(--secondary-color); /* Bordure autour de l'image */
+}
+
+.Biographie h2 {
+    margin-bottom: 1em; /* Marge inférieure */
+    color: var(--secondary-color); /* Couleur du titre */
+}
+
+.Biographie p {
+    margin-bottom: 1em; /* Marge inférieure */
+    color: var(--secondary-color); /* Couleur du texte */
+}
+
+.Biographie ul {
+    list-style: none; /* Suppression des puces de liste */
+    padding: 0; /* Suppression du remplissage */
+}
+
+.Biographie ul li {
+    margin-bottom: 0.5em; /* Marge inférieure entre les éléments de la liste */
+    color: var(--secondary-color); /* Couleur du texte */
+}

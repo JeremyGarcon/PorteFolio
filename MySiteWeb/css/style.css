@@ -1,0 +1,43 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-color: #f1f1f1; /* Couleur de fond */
+    color: var(--main-color); /* Utilisation de la variable principale pour la couleur de texte */
+}
+
+/* Contenu principal */
+main {
+    position: absolute; /* Position absolue */
+    top: 50%; /* Position à 50% du haut */
+    left: 50%; /* Position à 50% de la gauche */
+    transform: translate(-50%, -50%); /* Décalage de 50% vers la gauche et le haut pour centrer */
+    text-align: center; /* Alignement du texte au centre */
+    width: 70%; /* Largeur de 70% */
+    height: auto; /* Hauteur automatique */
+    border-radius: var(--border-radius); /* Rayon de bordure */
+    justify-content: center; /* Centrage horizontal */
+    display: grid; /* Utilisation de la grille */
+    grid-template-columns: 35% 65%; /* Deux colonnes avec 35% et 65% de largeur */
+    grid-column-gap: 15px; /* Espacement entre les colonnes */
+}
+
+/* Vidéo d'arrière-plan */
+video {
+    position: fixed; /* Position fixe */
+    right: 0; /* Alignement à droite */
+    bottom: 0; /* Alignement en bas */
+    min-width: 100%; /* Largeur minimale de 100% */
+    min-height: 100%; /* Hauteur minimale de 100% */
+    z-index: -1; /* Position en arrière-plan */
+    object-fit: cover; /* Adaptation de la vidéo à la taille de son conteneur */
+}
+
+/* Styles pour les titres */
+h2 {
+    margin-bottom: 1em; /* Marge inférieure */
+    margin-top: 1em; /* Marge supérieure */
+}
+
+main * {
+    color: var(--secondary-color); /* Couleur du texte */
+}
