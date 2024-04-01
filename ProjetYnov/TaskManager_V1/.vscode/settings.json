@@ -1,0 +1,25 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+        "C:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\json-20240303.jar",
+        "C:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\json-simple-master\\src\\main\\java\\org\\json\\simple\\parser\\*.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\commons-io-2.15.1.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\commons-io-2.15.1-javadoc.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\commons-io-2.15.1-sources.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\commons-io-2.15.1-tests.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\commons-io-2.15.1-test-sources.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-action-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-autocomplete-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-common-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-core-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-graphics-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-painters-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\swingx-plaf-1.7.6.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\byte-buddy-1.14.9.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\jackson-annotations-2.17.0.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\jackson-core-2.17.0.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\jackson-databind-2.17.0.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\jcalendar-1.4.jar",
+        "c:\\Users\\user\\Documents\\Git-Comp-tanceInfo-CarteMentale\\Carte-Compétance-Obsédian\\Programmation\\Java\\import\\json-20240303.jar"
+    ]
+}
